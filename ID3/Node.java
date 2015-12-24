@@ -28,7 +28,7 @@ public class Node implements Cloneable{
     	node.N = this.N;
     	node.attr = this.attr;
     	node.attrZero = this.attrZero;
-    	node.attrOne = this.attrOne;
+    	node.attrOne = this.attrOne; 
     	node.val = this.val;
     	node.zeroPInstances = this.zeroPInstances;
     	node.zeroNInstances = this.zeroNInstances;
@@ -41,7 +41,7 @@ public class Node implements Cloneable{
     	node.left = this.left;
     	node.right = this.right;
     	
-    	return super.clone();
+    	return super.clone(); 
     }
     
 }

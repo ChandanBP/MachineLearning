@@ -21,7 +21,7 @@ public class Node implements Cloneable{
     @Override
     protected Object clone() throws CloneNotSupportedException {
     
-    	Node node = new Node();
+    	Node node = new Node(); 
     	
     	node.accuracy = this.accuracy;
     	node.isLeaf = this.isLeaf;

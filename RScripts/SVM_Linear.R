@@ -17,7 +17,7 @@ for(i in 1:10){
 
     testData<-fileContents[-index,]
     xTestData<-testData[,-9]
-    yTestData<-as.factor(testData[,9])
+    yTestData<-as.factor(testData[,9]) 
 
     model = svm(xTrainingData, yTrainingData, method = "C-classification", kernel = "linear", cost = 10, gamma = 0.1)
     result = table(predict(model,xTestData),yTestData)

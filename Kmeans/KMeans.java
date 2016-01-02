@@ -32,7 +32,7 @@ public class KMeans {
 		K = Integer.parseInt(k);
 		
 		// File handle for input file
-		file = new File(inputFile);
+		file = new File(inputFile); 
 		
 		// File handle for output file
 		opFile = new File(outputFile);

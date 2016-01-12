@@ -7,7 +7,7 @@ public class Node implements Cloneable{
     int attrZero;
     int attrOne;
     int val;
-    int zeroPInstances;
+    int zeroPInstances; 
     int zeroNInstances;
     int onePInstances;
     int oneNInstances;

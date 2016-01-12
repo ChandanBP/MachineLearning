@@ -9,7 +9,7 @@ import java.util.Queue;
 
 public class PruneTree {
     
-	Node dPrimeNode;
+	Node dPrimeNode; 
 	Node dBest;
 	File validationFile;
 	

@@ -13,7 +13,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 
 public class KMeans {
-	
+	 
 	int K;
 	float distanceMatrix[][];
 	ArrayList<Integer>randomNum;

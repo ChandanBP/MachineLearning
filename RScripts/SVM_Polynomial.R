@@ -11,7 +11,7 @@ for(i in 1:10){
     index<-sample(nrow(fileContents),size=val)
     
     trainingData<-fileContents[index,]
-    xTrainingData<-trainingData[,-9]
+    xTrainingData<-trainingData[,-9] 
     yTrainingData<-as.factor(trainingData[,9])
     
 
